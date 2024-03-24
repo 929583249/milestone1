@@ -8,14 +8,16 @@ export default function App() {
         <Text style={styles.headerText}>My to do list</Text>
       </View>
       <View style={styles.leftTextContainer}>
-        <Text style={styles.leftText}>ONE</Text>
+        <Text style={styles.leftText}>ONE THINGS</Text>
         <Text>------------------------</Text>
-        <Text style={styles.leftText}>TWO</Text>
+        <Text style={styles.leftText}>TWO THINGS</Text>
         <Text>------------------------</Text>
-        <Text style={styles.leftText}>THREE</Text>
+        <Text style={styles.leftText}>THREE THINGS</Text>
+        <Text>------------------------</Text>
+        <Text style={styles.leftText}>FOUR THINGS</Text>
         <Text>------------------------</Text>
         </View>
-      {/* 替换Text组件为TouchableOpacity作为按钮 */}
+      
       <TouchableOpacity
         onPress={() => alert('Add new to do item')}
         style={styles.button}
