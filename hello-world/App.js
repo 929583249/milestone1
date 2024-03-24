@@ -8,13 +8,13 @@ export default function App() {
         <Text style={styles.headerText}>My to do list</Text>
       </View>
       <View style={styles.leftTextContainer}>
-        <Text style={styles.leftText}>ONE THINGS</Text>
+        <Text style={styles.leftText}>fIRST THING</Text>
         <Text>------------------------</Text>
-        <Text style={styles.leftText}>TWO THINGS</Text>
+        <Text style={styles.leftText}>SECOND THING</Text>
         <Text>------------------------</Text>
-        <Text style={styles.leftText}>THREE THINGS</Text>
+        <Text style={styles.leftText}>THIRD THING</Text>
         <Text>------------------------</Text>
-        <Text style={styles.leftText}>FOUR THINGS</Text>
+        <Text style={styles.leftText}>FOURTH THING</Text>
         <Text>------------------------</Text>
         </View>
       
